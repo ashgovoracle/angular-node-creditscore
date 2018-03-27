@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('CreditService', ['$http', '$q', function($http, $q){
 
-  var REST_SERVICE_URI = './creditscoreV8';
+  var REST_SERVICE_URI = './creditscoreV9';
 
   var factory = {
     creditScore: creditScore,
